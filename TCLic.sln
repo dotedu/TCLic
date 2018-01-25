@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCLic", "TCLic\TCLic.csproj", "{0927E5FF-6F40-451F-A858-153DAD95B23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0927E5FF-6F40-451F-A858-153DAD95B23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0927E5FF-6F40-451F-A858-153DAD95B23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0927E5FF-6F40-451F-A858-153DAD95B23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0927E5FF-6F40-451F-A858-153DAD95B23E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE09A897-43F8-471F-98B6-D9C101D44999}
+	EndGlobalSection
+EndGlobal
