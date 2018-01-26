@@ -152,5 +152,12 @@ namespace TCLic
             //Settings.Default.Save();
         }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+            ProductKeyStr.Text = "11111-11111-11111-11111-11111";
+            CompanyStr.Text = "Home";
+            UserStr.Text = "pisces";
+            EMailStr.Text = "pisces.hj@gmail.com";
+        }
     }
 }

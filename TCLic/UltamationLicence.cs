@@ -306,15 +306,36 @@ namespace TCLic
                 int num = i * 4;
                 for (int j = 0; j < 4; j++)
                 {
-                    num += UltamationLicence.KeyTable.IndexOf(text[i * 5 + j]);
+                    num += KeyTable.IndexOf(text[i * 5 + j]);
                 }
-                num %= UltamationLicence.KeyTable.Length;
-                if (text[i * 5 + 4] != UltamationLicence.KeyTable[num])
+                num %= KeyTable.Length;
+                if (text[i * 5 + 4] != KeyTable[num])
                 {
                     return false;
                 }
             }
             return true;
+        }
+
+
+        public string MakeKey()
+        {
+            string key="";
+            char[] text = new char[25];
+            for (int i = 0; i < 5; i++)
+            {
+                int num = i * 4;
+                for (int j = 0; j < 4; j++)
+                {
+                    num += KeyTable.IndexOf(text[i * 5 + j]);
+                }
+                num %= KeyTable.Length;
+
+                text[i * 5 + 4] = KeyTable[num];
+            }
+
+
+            return key;
         }
     }
 }
